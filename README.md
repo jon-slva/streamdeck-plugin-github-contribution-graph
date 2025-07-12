@@ -8,3 +8,7 @@ The original project had white boxes which stuck out too much on my Stream Deck.
 
 
 Original credit goes to [ArtCC](https://github.com/ArtCC)
+
+## Installation
+1. Navigate to /Users/username/Library/Application Support/com.elgato.StreamDeck/Plugins
+2. copy plugin repo to a new folder called `github-contributions.streamDeckPlugin`
