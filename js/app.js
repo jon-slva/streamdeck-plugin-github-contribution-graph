@@ -254,7 +254,7 @@ function updateTitle(title, context) {
 
 function updateTitleForFiveButtons(weeks, buttonNumber, context) {
     const monthNames = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
-    const weeksPerButton = Math.ceil(52 / 5);
+    const weeksPerButton = Math.ceil(52 / 6);
     const startWeek = buttonNumber * weeksPerButton;
     const endWeek = Math.min(startWeek + weeksPerButton, 52);
 
@@ -388,7 +388,7 @@ function generateContributionSVG(weeks, timeOption, theme, buttonNumber) {
         }
     } else if (timeOption === 'year5') {
         const totalWeeks = 52;
-        const weeksPerButton = Math.ceil(totalWeeks / 5);
+        const weeksPerButton = Math.ceil(totalWeeks / 6);
         const startWeek = buttonNumber * weeksPerButton;
         const endWeek = Math.min(startWeek + weeksPerButton, totalWeeks);
 
