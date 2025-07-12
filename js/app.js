@@ -315,7 +315,7 @@ function updateImage(newImage, context) {
 function getCustomGrayColor(githubColor, contributionCount) {
     // Map GitHub's colors with dark gray base instead of light gray, keeping green progression
     const customColors = {
-        '#ebedf0': '#151C23', // No contributions - dark gray instead of light gray
+        '#ebedf0': '#0e1216ff', // No contributions - dark gray instead of light gray
         '#9be9a8': '#063A16', // Low contributions - keep light green  
         '#40c463': '#196C2E', // Medium contributions - keep medium green
         '#30a14e': '#2EA043', // High contributions - keep dark green
